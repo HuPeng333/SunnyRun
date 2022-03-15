@@ -4,7 +4,7 @@
 
 <br>
 
-### 程序下载
+### 程序下载（github右侧Release内也可以下载）
 蓝奏云下载：
 
 [SunRun.jar(密码:3jbt)](https://wwe.lanzouj.com/iNnvb00waezc)
