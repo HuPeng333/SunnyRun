@@ -1,6 +1,7 @@
-package cn.czyx007.SunnyRun.Run;
+package cn.czyx007.sunnyrun;
 
-import cn.czyx007.SunnyRun.Utils.RunUtils;
+import cn.czyx007.sunnyrun.utils.RunUtils;
+import cn.czyx007.sunnyrun.run.Run;
 
 import java.io.*;
 

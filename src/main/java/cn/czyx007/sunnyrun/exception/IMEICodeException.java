@@ -1,4 +1,4 @@
-package cn.czyx007.SunnyRun.Exception;
+package cn.czyx007.sunnyrun.exception;
 
 /**
  * @author : 张宇轩

@@ -1,6 +1,6 @@
-package cn.czyx007.SunnyRun.Run;
+package cn.czyx007.sunnyrun.run;
 
-import cn.czyx007.SunnyRun.Utils.RunUtils;
+import cn.czyx007.sunnyrun.utils.RunUtils;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.json.JSONObject;
@@ -108,9 +108,11 @@ public class Run {
             bw.write(("Steps:"+ RunStep + "\n"));
             bw.write("-----------------------\n");
 
-            if (endJsonObject.optBoolean("Success"))
+            if (endJsonObject.optBoolean("Success")) {
                 bw.write(("[+]OK:" + endJsonObject.optString("Data")));
-            else bw.write(("[!]Fail:" + endJsonObject.optString("Data")));
+            } else {
+                bw.write(("[!]Fail:" + endJsonObject.optString("Data")));
+            }
         }catch (Exception e){
             e.printStackTrace();
         }
